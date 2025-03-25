@@ -36,4 +36,35 @@ let delay =0;
 while (numero >=1){
     console.log(numero);
     numero--;
+}  
+
+function inverterTexto(texto) {
+    return texto.split('').reverse().join('');
 }
+
+console.log(inverterTexto("JavaScript")); 
+
+
+
+
+
+
+function contarCaracteres(texto) {
+    return texto.length;
+}
+
+console.log(contarCaracteres("Eai_bom"));
+
+
+
+
+
+const carro = {
+    marca: "Fiat",
+    modelo: "Argo",
+    ano: 2023
+};
+
+console.log(carro.marca);
+console.log(carro.ano);
+console.log(carro.modelo);
